@@ -122,7 +122,7 @@ public final class DeployUsingARMTemplateWithProgress {
         final String hostingPlanName = ResourceNamer.randomResourceName("hpRSAT", 24);
         final String webappName = ResourceNamer.randomResourceName("wnRSAT", 24);
         final InputStream embeddedTemplate;
-        embeddedTemplate = DeployUsingARMTemplateWithProgress.class.getResourceAsStream("/templateValue.json");
+        embeddedTemplate = DeployUsingARMTemplate.class.getResourceAsStream("/templateValue.json");
 
         final ObjectMapper mapper = new ObjectMapper();
         final JsonNode tmp = mapper.readTree(embeddedTemplate);
