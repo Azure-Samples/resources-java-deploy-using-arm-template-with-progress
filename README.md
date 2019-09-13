@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Resources
-- platforms: java
+description: "Getting Started with Resources - Deploy Using ARM Template With Progress - in Java"
+urlFragment: resources-java-deploy-using-arm-template-with-progress
 ---
 
 # Getting Started with Resources - Deploy Using ARM Template With Progress - in Java #
